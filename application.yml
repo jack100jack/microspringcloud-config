@@ -1,0 +1,16 @@
+Spring:
+    profiles:
+    active:
+    - dev
+---
+Spring:
+    profiles: dev 
+    application:
+        name: micorservicecloud-config-atguigu-dev
+---
+Spring:
+    profiles: test 
+    application:
+        name: micorservicecloud-config-atguigu-test
+        
+        
